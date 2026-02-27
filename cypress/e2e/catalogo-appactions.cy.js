@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker';
 
-describe('Funcionalidade: Cadastro de usuário no Hub de Leitura', () => {
+describe('Funcionalidade: Catálogo de Livros no Hub de Leitura', () => {
 
     beforeEach(() => {
         cy.visit('login.html')
