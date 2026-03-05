@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       
     },
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+    video:true,
+    baseUrl: 'http://host.docker.internal:3000'
   },
 });

@@ -1,4 +1,4 @@
-describe('Funcionalidade: Cadastro de usuário no Hub de Leitura', () => {
+describe('Funcionalidade: Cadastro de usuário no Hub de Leitura', () => {   
 
     it('Cenário Positivo - Cadastro com sucesso', () => {
         cy.intercept('POST', 'api/register', {

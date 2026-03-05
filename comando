@@ -1,0 +1,4 @@
+docker run --rm `
+ -v ${pwd}/logs-cypress/videos:/e2e/cypress/videos `
+ -v ${pwd}/logs-cypress/screenshots:/e2e/cypress/screenshots `
+ cypress-testes-4

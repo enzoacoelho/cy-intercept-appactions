@@ -9,7 +9,7 @@ describe('Funcionalidade: Catálogo de Livros no Hub de Leitura', () => {
     });
 
     it('Deve cadastrar um livro com sucesso', () => {
-        cy.loginApp(Cypress.env('ADMIN_EMAIL'), Cypress.env('ADMIN_SENHA'), true).then((token) => {
+        cy.loginApp('admin@biblioteca.com', 'admin123', true).then((token) => {
 
             const livro = {
                 title: faker.lorem.words(3),
